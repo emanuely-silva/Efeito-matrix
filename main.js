@@ -28,13 +28,13 @@ function draw() {
     drops[i]++;
   }
 
-  // Adiciona o nome "emanuely" centralizado
+  // Adiciona o nome "Emanuely" centralizado
   ctx.fillStyle = '#00FF00'; // Cor verde
   ctx.font = 'bold 24px monospace';
-  const textWidth = ctx.measureText('emanuely').width;
+  const textWidth = ctx.measureText('Emanuely').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('emanuely', x, y);
+  ctx.fillText('Emanuely', x, y);
 
   requestAnimationFrame(draw);
 }
