@@ -34,7 +34,7 @@ function draw() {
   const textWidth = ctx.measureText('emanuely').width;
   const x = (canvas.width - textWidth) / 2;
   const y = canvas.height / 2;
-  ctx.fillText('Rafael Assis Santos', x, y);
+  ctx.fillText('emanuely', x, y);
 
   requestAnimationFrame(draw);
 }
